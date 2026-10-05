@@ -1229,7 +1229,9 @@ ul {
 }
 
 .dining .section-tag {
-  color: var(--gold);
+  color: var(--white);
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.25);
 }
 
 .meal-schedule {
@@ -1254,13 +1256,13 @@ ul {
 
 .meal-time {
   font-size: 13px;
-  color: var(--gold-light);
+  color: var(--white);
   font-weight: 600;
 }
 
 .meal-name {
   font-size: 14px;
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(255, 255, 255, 0.9);
   font-weight: 500;
 }
 
@@ -1288,9 +1290,9 @@ ul {
 }
 
 .dining-tag {
-  background: rgba(201, 168, 76, 0.15);
-  border: 1px solid rgba(201, 168, 76, 0.3);
-  color: var(--gold-light);
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: var(--white);
   padding: 8px 16px;
   border-radius: 100px;
   font-size: 13px;
@@ -1342,7 +1344,7 @@ ul {
 .study-hours-badge .big-text {
   font-size: 22px;
   font-weight: 800;
-  color: var(--gold-light);
+  color: var(--white);
 }
 
 .study-hours-badge .small-text {
@@ -1515,7 +1517,7 @@ ul {
 .safety-stat-num {
   font-size: 26px;
   font-weight: 800;
-  color: var(--gold-light);
+  color: var(--white);
   line-height: 1;
 }
 
@@ -1776,7 +1778,7 @@ ul {
   justify-content: center;
   font-size: 18px;
   font-weight: 700;
-  color: var(--gold-light);
+  color: var(--white);
   flex-shrink: 0;
   font-family: 'Playfair Display', serif;
 }
